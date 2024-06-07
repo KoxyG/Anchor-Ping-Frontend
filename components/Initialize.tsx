@@ -9,7 +9,7 @@ import idl from "../idl.json"
 import { Button } from "@chakra-ui/react"
 
 const PROGRAM_ID = new anchor.web3.PublicKey(
-  `9sMy4hnC9MML6mioESFZmzpntt3focqwUq1ymPgbMf64`
+  `CBFoGwk81EWgFMi57W6wNsKLGnFKeJUTy6mJKHj1SDwJ`
 )
 
 export interface Props {

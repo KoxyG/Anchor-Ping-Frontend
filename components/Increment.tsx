@@ -53,6 +53,7 @@ export const Increment: FC<Props> = ({ counter, setTransactionUrl }) => {
       .decrement()
       .accounts({
         counter: counter,
+        user: wallet.publicKey,
       })
       .rpc()
 
